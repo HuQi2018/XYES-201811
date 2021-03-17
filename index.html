@@ -1,0 +1,399 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="keyword" content="sju" />
+        <title>中国一分钟</title>
+        <link rel="icon" type="image/x-icon" href="https://cas.sju.edu.cn/tpass/comm/image/newicon.ico">
+        <link rel="stylesheet" href="css/style.css" media="all" type="text/css" />
+        <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+        <script src="js/js.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    
+    <body>
+    	<div id="focus">
+    	    <div class="photo">
+    	        <ul id="tupian">
+    	            <li class="cur">
+    	                <img src="images/1.png" />
+    	            </li>
+    	            <li>
+    	                <img src="images/1 (3).jpg" />
+    	                <div class="mubu"></div>
+    	                <div class="slide-text" style="text-align: center !important;">
+    	                    <h1>想过？</h1>
+    	                    <p>一分钟中国网络能完成多少次信息交互吗？</p>
+    	                </div>
+    	            </li>
+    	            <li>
+    	                <img src="images/1 (5).jpg" />
+    	                <div class="mubu"></div>
+    	                <div class="slide-text" style="text-align: right !important;">
+    	                    <h1>想过？</h1>
+    	                    <p>一分钟你所在城市最繁华地带城市的车流量是多少吗？</p>
+    	                </div>
+    	            </li>
+    	        </ul>
+    	        <span class="slider" id="prev"></span>
+    	        <span class="slider" id="next"></span>
+    	    </div>
+    	    <div class="carousel-indicators">
+    	        <ul id="touch-slider">
+    	            <li class="cur"></li>
+    	            <li></li>
+    	            <li></li>
+    	        </ul>
+    	    </div>
+    	</div>
+        <div id="list">
+            <div id="list-left" style="width:20%;float:left;height:50px;">
+			<a href="images/ico.jpg" target="_black">
+                <div id="list-left-ico" style="position:relative;">
+                    <div id="list-ico">
+						
+                    </div>
+                </div>
+			</a>
+            </div>
+            <div id="list-right" style="width:77%;float:right;">
+                <div id="list-content">
+                    <div class="list-content">
+                        <div class="h1"><h1><a href="index.html">首页</a></h1></div>
+                    </div>
+                    <div class="list-content">
+                        <div class="h1 clear"><h1>地方篇</h1></div>
+                        <div class="list-meun">
+                            <div style="margin:0 10% 0 10%;">
+                                <div class="left" style="float:left;width: 50%;text-align: left;height:136px;margin-left:5%;">
+									<div style="height:100%;width:50%;float:left;"><img style="height:100%;width:100%;" src="images/difang.png"></div>
+									<div style="float:right;width: 45%;">
+									    <div style="line-height: 2em;font-size: 13px;font-weight:bold;">冰雪童话，四季如春<br />孔孟之乡，千湖之省<br />勇立潮头，奋楫者先淀<br />首善之区，京典传承<br />翻天覆地，开放包容<br />六朝古都，底蕴深厚</div>
+									</div>
+								</div>
+								<div class="right" style="float:right;width: 45%;text-align: right;">
+									<ul class="links">
+									    <li><a href="jiangsu.html" target="_self">江苏一分钟</a></li>
+									    <li><a href="shenzhen.html" target="_self">深圳一分钟</a></li>
+									    <li><a href="shanghai.html" target="_self">上海一分钟</a></li>
+									    <li><a href="sichuan.html" target="_self">四川一分钟</a></li>
+								    </ul>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-content">
+                        <div class="h1 clear"><h1>景点篇</h1></div>
+                        <div class="list-meun">
+                            <div style="margin:0 10% 0 10%;">
+								<div class="left" style="float:left;width: 50%;text-align: left;height:136px;margin-left:5%;">
+									<div style="height:100%;width:50%;float:left;"><img style="height:100%;width:100%;" src="images/jingdian.png"></div>
+									<div style="float:right;width: 45%;">
+									    <div style="line-height: 2em;font-size: 13px;font-weight:bold;">平遥古城，云冈石窟<br />人间仙境，天府之国<br />大气真实，淳朴自然<br />表里山河，恢弘气魄<br />江南水乡，风土人情<br />巍巍太行，悠悠古城</div>
+									</div>
+								</div>
+								<div class="right" style="float:right;width: 45%;text-align: right;">
+									<ul class="links">
+									    <li><a href="jiuhuashan.html" target="_self">九华山</a></li>
+									    <li><a href="putuoshan.html" target="_self">普陀山</a></li>
+									    <li><a href="yanmensanji.html" target="_self">雁门、三晋</a></li>
+								    </ul>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-content">
+                        <div class="h1 clear"><h1>大学篇</h1></div>
+                        <div class="list-meun">
+                            <div style="margin:0 10% 0 10%;">
+								<div class="left" style="float:left;width: 50%;text-align: left;height:136px;margin-left:5%;">
+									<div style="height:100%;width:50%;float:left;"><img style="height:100%;width:100%;" src="images/daxue.png"></div>
+									<div style="float:right;width: 45%;">
+									    <div style="line-height: 2em;font-size: 13px;font-weight:bold;">当代大学生<br />依旧被视为精英且寄予厚望<br />自强不息，爱国荣校<br />饮水思源，开拓创新<br />民族复兴，我们大有可为</div>
+									</div>
+								</div>
+								<div class="right" style="float:right;width: 45%;text-align: right;">
+									<ul class="links">
+									    <li><a href="sjuschool.html" target="_self">三江学院</a></li>
+									    <li><a href="kyschool.html" target="_self">中国矿业大学</a></li>
+									    <li><a href="jnschool.html" target="_self">江南大学</a></li>
+									    <li><a href="xanyschool.html" target="_self">西安农业大学</a></li>
+									    <li><a href="nkschool.html" target="_self">南开大学</a></li>
+								    </ul>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-content">
+                        <div class="h1 clear"><h1>行业篇</h1></div>
+                        <div class="list-meun">
+                            <div style="margin:0 10% 0 10%;">
+								<div class="left" style="float:left;width: 50%;text-align: left;height:136px;margin-left:5%;">
+									<div style="height:100%;width:50%;float:left;"><img style="height:100%;width:100%;" src="images/hangye.png"></div>
+									<div style="float:right;width: 45%;">
+									    <div style="line-height: 2em;font-size: 13px;font-weight:bold;">中国梦的实践者<br />尽职尽责，扎实工作<br />记着初心，记着作为，记着坚守<br />致敬中国行业工作者<br /></div>
+									</div>
+								</div>
+								<div class="right" style="float:right;width: 45%;text-align: right;">
+									<ul class="links">
+									    <li><a href="wuyework.html" target="_self">物业管理</a></li>
+									    <li><a href="gangtiework.html" target="_self">钢铁</a></li>
+									    <li><a href="jntlwork.html" target="_self">济南铁路</a></li>
+									    <li><a href="junrenwork.html" target="_self">军人</a></li>
+									    <li><a href="waimaowork.html" target="_self">中国外贸</a></li>
+									    <li><a href="yinhangwork.html" target="_self">银行</a></li>
+								    </ul>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="main">
+            <div class="main-content-header">
+                <div style="position:absolute;width: 100%;">
+                    <div>
+                        <h1>时代中国</h1>
+                        <marquee><span>《中国一分钟》是人民日报推出的系列宣传片，全集分三集，分别为《瞬息万象》、《跬步致远》、《美美与共》。 该系列片是为迎接十三届全国人大一次会议，讲述中国改革开放四十年发生的巨大变化和取得的成就。</span></marquee>
+                    </div>
+                </div>
+                <div class="beijing">
+                   <img  class="beijing" src="images/11.png" />
+                </div>
+            </div>
+            <div class="main-content-header">
+                <video style="width: 100%;" playsinline="true" webkit-playsinline="true" x-webkit-airplay="true" x5-video-player-fullscreen="false" x5-video-player-type="h5" controls="controls" poster="images/1.png">
+					<source src="http://enflvmp4.people.com.cn/videofile3/pvmsvideo/2018/3/13/DaiXiaoYu_d6c5b00d5b97fcdfa402dadd3714aa58.mp4" type="video/mp4">
+					<source src="movies/China.mp4" type="video/mp4">
+				</video>
+				<div><p style="text-indent:2em;margin:0;">2018年3月5日首播各大门户网站和新媒体平台置顶转载，上线仅10小时，在人民日报两微两端及视频账号的总浏览播放量就近3000万，截至3月6日20时，全网观看量突破1.58亿。</p></div>
+			</div>
+            <div class="main-content">
+                <div class="main-content-left">
+                    <div class="main-content-left-border">
+                        <div style="background-color: #f1e6fb;border-radius: 1em;box-sizing:border-box;height:100%;position: relative;">
+                            <div style="padding:10px;font-weight:bolder;">
+                                <h1>瞬息万象</h1>
+                                <ul type="none" style="line-height: 60px;">
+                                    <li>一分钟的努力，汇聚中国力量</li>
+                                    <li>普通的你我，成就中国奇迹</li>
+                                    <li>新时代，再出发</li>
+                                </ul>
+                            </div>
+                            <div style="margin:20px 6%;bottom:0;position: absolute;">
+                                <img width="100%" src="images/09.png" alt="图片未加载成功！" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content-right1">
+                    <div style="float:right;width:49%;height:100%;">
+                        <div style="box-sizing:border-box;height:100%;position: relative;">
+                            <div style="box-sizing:border-box;text-align:center;position: absolute;padding:10%;top: 80px;right:-40px;">
+                                <img src="images/34.png" width="100%"/>
+                            </div>
+                            <div style="box-sizing:border-box;text-align:center;position: absolute;padding:10%;top: 230px;">
+                                <h1 style="border-bottom: 1px dashed #6600FF;font-family: '微软雅黑 Light';height: 40px;width:100%;margin:10px 0;">许下约定</h1>
+                                <img src="images/1(2).jpg" width="100%"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="float:right;width:49%;height:100%;">
+                        <div style="position: relative;box-sizing:border-box;height:100%;">
+                            <div style="box-sizing:border-box;text-align:center;position: absolute;padding:10%;top:0;">
+                                <h1 style="border-bottom: 2px dashed #6600FF;font-family: '微软雅黑 Light';height: 40px;width:100%;margin:10px 0;">实现突破</h1>
+                                <img src="images/1(1).jpg" width="100%"/>
+                                <div style="height:220px;width: 120%;overflow:hidden;margin: 40px auto;">
+                                    <div class="wenzi">
+                                        <p>一分钟，<span>33个</span>新生儿诞生</p>
+                                        <p>一分钟，<span>20个</span>新的家庭组建</p>
+                                        <p>一分钟，<span>26人</span>走上工作岗位</p>
+                                        <p>一分钟，<span>35217名</span>旅客出行</p>
+                                        <p>一分钟，移动互联网接入流量<span>46804G</span></p>
+                                        <p>一分钟，网上商品零售<span>1043万</span>元</p>
+                                        <p>一分钟，快递小哥收<span>7.6万</span>件快递</p>
+                                        <p>一分钟，移动支付金额<span>3.79亿</span>元</p>
+                                        <p>一分钟，“蛟龙号”最大能下潜<span>50</span></p>
+                                        <p>一分钟，“复兴号”前进<span>5833米</span></p>               
+                                        <p>一分钟，“神威·太湖之光”运算<span>750亿亿次</span></p>
+                                        <p>一分钟，<span>333万</span>元投入研究和试验</p>
+                                        <p>一分钟，生产汽车<span>55辆</span></p>
+                                        <p>一分钟，<span>5288万</span>元货物进出口</p>
+                                        <p>一分钟，创造GDP<span>1.57亿</span>元</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="main-content-left" style="float:right;">
+                    <div class="main-content-left-border">
+                        <div style="background-color: #f1e6fb;border-radius: 1em;box-sizing:border-box;height:100%;position: relative;">
+                            <div style="padding:10px;font-weight:bolder;">
+                                <h1>跬步致远</h1>
+                                <ul type="none" style="line-height: 50px;">
+                                    <li>不积跬步，无以至千里</li>
+                                    <li>不积小流，无以成江海</li>
+                                    <li>千千万万普通人最伟大</li>
+                                    <li>幸福都是奋斗出来的</li>
+                                </ul>
+                            </div>
+                            <div style="margin:20px 6%;bottom:0;position: absolute;">
+                                <img width="100%" src="images/16.png" alt="图片未加载成功！" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content-right2" style="float:left;">
+                    <div style="float:right;width:49%;height:100%;">
+                        <div style="box-sizing:border-box;height:100%;position: relative;">
+                            <div style="box-sizing:border-box;text-align:center;position: absolute;padding:10%;width:100%;">
+                                <div style="height:220px;width: 125%;overflow:hidden;margin: 0 auto;float: right;">
+                                    <div class="wenzi">
+                                        <p>一分钟农民窦正宝能耕地<span>十来个</span>平方</p>
+                                        <p>工人江勇所在钢厂可以出产<span>9吨</span>钢材</p>
+                                        <p>游泳运动员闫子贝可以完成<span>45次</span>划水训练</p>
+                                        <p>军人许利强能带领战斗机群巡航祖国<span>43000平方公里</span>的空域</p>
+                                        <p>一分钟，中国人新建改建<span>596.66米</span>公路</p>
+                                        <p><span>43小时</span>，完成北京三元桥的换梁施工</p>
+                                        <p><span>60天</span>，南海可燃冰试开采产气时长与总量</p>
+                                        <p>双双打破世界纪录</p>
+                                        <p>这一年</p>
+                                        <p>我们收获<span>6.18亿</span>吨的粮食</p>               
+                                        <p>创造<span>82.71万亿</span>元的GDP</p>
+                                        <p>在体育赛场斩获<span>106个</span>世界冠军</p>
+                                        <p>开始探索<span>137亿光年</span>外的星空</p>
+                                        <p>改革开放四十年的成就</p>
+                                        <p>源自每一分钟的积累</p>
+                                        <p>建成社会主义现代化强国</p>
+                                        <p>需要每一个人的努力</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="box-sizing:border-box;text-align:center;position: absolute;padding:10%;bottom:70px;">
+                                <h1 style="border-bottom: 1px dashed #6600FF;font-family: '微软雅黑 Light';height: 40px;width:100%;margin:10px 0;">冠军中国</h1>
+                                <img src="images/2(1).jpg" width="100%"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="float:right;width:49%;height:100%;">
+                        <div style="position: relative;box-sizing:border-box;height:100%;">
+                            <div style="box-sizing:border-box;text-align:center;position: absolute;padding:10%;top: 50px;">
+                                <h1 style="border-bottom: 1px dashed #6600FF;font-family: '微软雅黑 Light';height: 40px;width:100%;margin:10px 0;">高效分析</h1>
+                                <img src="images/2(2).jpg" width="100%"/>
+                                <div style="position:absolute;margin-top: 100px;margin-left: 100px;right: -100px;">
+                                    <img src="images/34.png" width="100%"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="main-content-left">
+                    <div class="main-content-left-border">
+                        <div style="background-color: #f1e6fb;border-radius: 1em;box-sizing:border-box;height:100%;position: relative;">
+                            <div style="padding:10px;font-weight:bolder;">
+                                <h1>美美与共</h1>
+                                <ul type="none" style="line-height: 40px;">
+                                    <li>各美其美，美人之美</li>
+                                    <li>美美与共，天下大同</li>
+                                    <li>中国人民愿同各国人民一道</li>
+                                    <li>推动人类命运共同体建设</li>
+                                    <li>共同创造人类的美好未来</li>
+                                </ul>
+                            </div>
+                            <div style="margin:20px 6%;bottom:0;position: absolute;">
+                                <img width="100%" src="images/18.png" alt="图片未加载成功！" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content-right1">
+                    <div style="float:right;width:49%;height:100%;">
+                        <div style="box-sizing:border-box;height:100%;position: relative;">
+                            <div style="box-sizing:border-box;text-align:center;position: absolute;padding:10%;top: 80px;right:-40px;">
+                                <img src="images/34.png" width="100%"/>
+                            </div>
+                            <div style="box-sizing:border-box;text-align:center;position: absolute;padding:10%;top: 230px;">
+                                <h1 style="border-bottom: 1px dashed #6600FF;font-family: '微软雅黑 Light';height: 40px;width:100%;margin:10px 0;">华夏文明</h1>
+                                <img src="images/3(1).jpg" width="100%"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="float:right;width:49%;height:100%;">
+                        <div style="position: relative;box-sizing:border-box;height:100%;">
+                            <div style="box-sizing:border-box;text-align:center;position: absolute;padding:10%;top:0;">
+                                <h1 style="border-bottom: 1px dashed #6600FF;font-family: '微软雅黑 Light';height: 40px;width:100%;margin:10px 0;">进口中国</h1>
+                                <img src="images/3(2).jpg" width="100%"/>
+                                <div style="height:220px;width: 125%;overflow:hidden;margin: 40px auto;">
+                                    <div class="wenzi">
+                                        <p>一分钟，2架次国际航线飞机在中国起降</p>
+                                        <p>一分钟，<span>55名</span>外国人来到中国</p>
+                                        <p>一分钟，<span>2370.7万元</span>的商品进入中国</p>
+                                        <p>一分钟，<span>272位</span>国人出境，寻访大千世界</p>
+                                        <p>一分钟，国人境外旅游消费<span>36.07万美元</span></p>
+                                        <p>一分钟，中企向东道国纳税超<span>5.7万美元</span></p>
+                                        <p>一分钟，超过<span>2300部</span>手机销往全球</p>
+                                        <p>一分钟，<span>2917.1万元</span>的商品走出国门</p>
+                                        <p>一分钟，<span>154.3万元</span>资金投向海外</p>
+                                        <p>每一分钟，中国都在为世界添彩</p>               
+                                        <p>每一分钟，世界都与中国紧密相连</p>
+                                        <p>一分钟，中国美食飘散一种味道</p>
+                                        <p>一分钟，中国文化传递一种韵味</p>
+                                        <p>一分钟，中国创新提供一种便捷</p>
+                                        <p>一分钟，中国北斗指引一个方向</p>
+                                        <p>一分钟，北京冬奥发出一份邀请</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+        <div id="footer">
+            <div id="footer-center">
+                <div id="footer-inner">
+                    <div class="conect">
+                        <p>地址：江苏省南京市三江学院</p>
+                        <p>电话：+86-1111-11111111</p>
+                        <p>传真：+86-1111-11111111</p>
+                    </div>
+                    <div class="conect">
+                        <p>网站策划：网站开发部</p>
+                        <p>设计及技术支持：向阳而生工作室</p>
+                        <p>意见反馈：<a id="mailto" href="mailto:995269681@qq.com">995269681@qq.com</a></p>
+                    </div>
+                    <div class="conect">
+                        <a href="https://uni.mp.qq.com/page/jump?url=http%3A%2F%2Fpost.mp.qq.com%2Fhtml%2Fjumpto.html%3Fcmd%3D0%26puin%3D995269681">
+                            <div class="connect" style="background-position-x:0px;">
+                                <img class="img" style="" src="images/qq.png" alt="">
+                            </div>
+                        </a>
+                        <a href="http://weixin.qq.com/r/MJlxkAIg4A4UTgizHsL5qKY">
+                            <div class="connect" style="background-position-x:-100px;">
+                                <img class="img" style="" src="images/weixin.png" alt="">
+                            </div>
+                        </a>
+                        <a href="https://weibo.cn/u/3177818340">
+                            <div class="connect" style="background-position-x:-50px;">
+                                <img class="img" style="" src="images/weibo.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="copyright">
+                        <p>Copyright © 2018 向阳而生工作室 All Rights Reserved</p>
+                        <p>Powered by KodExplorer | 苏ICP备18023091号</p>
+                    </div>
+                </div>
+            </div>
+            <div id="btn_top">
+                <a href="#top"><img src="images/btn_top.gif" alt="返回顶部" /></a>
+            </div>
+        </div>
+    </body>
+</html>

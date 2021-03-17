@@ -1,0 +1,45 @@
+            #main div{
+                margin: 40px 0;
+                font-family:"楷体";
+            }
+            #main #video{
+            	/*margin:auto;*/
+            	width:100%;
+            	 }
+            #main .liebiao{
+            	float: left;
+            	width:17%;
+            	position: relative;
+            	top: 50px;
+            	text-align: left;
+            }
+            #main .liebiao h2{
+                margin: 10px 0;
+                font-size: 200%;
+            }
+            #main .wenben{
+            	/*width:100%;*/
+            	/*margin: 0 10%;*/
+            	/*float: right;*/
+            	/*text-shadow: -1px 1px black;*/
+            	font-weight: bolder;
+            }
+            #main .wenben h2{
+                margin-top: 100px;
+                border-top: 2px hsl(240, 71%, 18%) solid;
+                box-shadow: -4px 3px black;
+                -moz-shadow: -4px 3px black; /* Firefox 4 */
+                -webkit-shadow: -4px 3px black; /* Safari 和 Chrome */
+                -o-shadow: -4px 3px black; /* Opera */
+                border-radius: 20px;
+                text-align: center;
+            }
+            .wenben p{
+            	font-family: "仿宋";
+                font-size: 21px;
+            	text-indent:2em;
+                margin: 21px 0;
+            }
+            .wenben span{
+            	color: red;
+            }
